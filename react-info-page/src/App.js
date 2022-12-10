@@ -15,6 +15,21 @@ class App extends React.Component {
           <li>Is maintained by Facebook</li>
           <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Franklin</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>Anna</td>
+            <td>21</td>
+          </tr>        
+        </table>
+
       </div>
     )
   }
