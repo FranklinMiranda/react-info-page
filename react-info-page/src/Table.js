@@ -5,18 +5,22 @@ class Table extends React.Component {
     return (
       <div>
         <table>
-          <h3>Contacts Table</h3>
+          <h3>Companies that use React</h3>
           <tr>
             <th>Name</th>
             <th>Age</th>
           </tr>
           <tr>
-            <td>Franklin</td>
-            <td>24</td>
+            <td>Dropbox</td>
+            <td>14</td>
           </tr>
           <tr>
-            <td>Anna</td>
-            <td>21</td>
+            <td>Instagram</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>Airbnb</td>
+            <td>14</td>
           </tr>
         </table>
       </div>
