@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div>
         <Banner name="Franklin"/>
-        <Banner name="Anna"/>
+        <Banner name="Miranda"/>
         <NavBar />
         <Info />
         <Table />
