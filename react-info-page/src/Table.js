@@ -8,23 +8,23 @@ class Table extends React.Component {
           <h3>Companies that use React</h3>
           <tr>
             <th>Name</th>
-            <th>Age</th>
+            <th>Founding Year</th>
           </tr>
           <tr>
             <td>Facebook</td>
-            <td>18</td>
+            <td>2004</td>
           </tr>
           <tr>
             <td>Dropbox</td>
-            <td>14</td>
+            <td>2008</td>
           </tr>
           <tr>
             <td>Instagram</td>
-            <td>12</td>
+            <td>2010</td>
           </tr>
           <tr>
             <td>Airbnb</td>
-            <td>14</td>
+            <td>2008</td>
           </tr>
         </table>
       </div>
