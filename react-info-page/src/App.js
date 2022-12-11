@@ -9,9 +9,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Banner name="Franklin"/>
-        <Banner name="Miranda"/>
         <NavBar />
+        <Banner name="Franklin Miranda"/>
         <Info />
         <Table />
         <Form />
