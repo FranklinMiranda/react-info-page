@@ -1,11 +1,13 @@
+import './index.css';
+
 const NavBar = () => {
     return (
         <div>
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Information</li>
-                    <li>About</li>
+                <ul className="NavBarList">
+                    <li className="NavItems">Home</li>
+                    <li className="NavItems">Information</li>
+                    <li className="NavItems">About</li>
                 </ul>
             </nav>
         </div>
