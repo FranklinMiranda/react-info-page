@@ -9,8 +9,6 @@ class Banner extends React.Component {
     }
 }
 
-
-
 // Props Example with Simple Functional Component, only use props.name
 // const Banner = (props) => {
 //   return <h1>Hello, {props.name}</h1>;
