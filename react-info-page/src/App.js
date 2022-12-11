@@ -3,14 +3,15 @@ import NavBar from './Nav';
 import Info from './Info';
 import Table from './Table';
 import Form from './Form';
-import Banner from "./Banner"
+import Banner from './Banner';
 
 class App extends React.Component {
   render() {
     return (
       <div>
+        <Banner name="Franklin" />
+        <Banner name="Anna" />
         <NavBar />
-        <Banner name="Franklin"/>
         <Info />
         <Table />
         <Form />
