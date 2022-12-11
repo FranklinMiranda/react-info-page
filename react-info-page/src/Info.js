@@ -6,7 +6,7 @@ class Info extends React.Component {
     render() {
         return (
             <div>
-            <img src={Image} alt="React" width="180px"></img>
+            <img className="Img" src={Image} alt="React" width="180px"></img>
             <h1>Fun facts about React</h1>
             <ul>
               <li>Was first released in 2013</li>
