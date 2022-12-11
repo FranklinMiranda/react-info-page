@@ -1,7 +1,7 @@
 import React from 'react';
 import Info from './Info';
 import Table from './Table';
-import NavBar from "./Nav"
+import NavBar from './Nav';
 
 class App extends React.Component {
   render() {
@@ -10,6 +10,7 @@ class App extends React.Component {
         <NavBar />
         <Info />
         <Table />
+        <Form />
       </div>
     );
   }
