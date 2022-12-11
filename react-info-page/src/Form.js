@@ -2,7 +2,7 @@ import React from 'react';
 
 class Form extends React.Component {
   render() {
-    return;
+    return(
     <form>
       <fieldset>
         <legend>Contact Form:</legend>
@@ -23,7 +23,8 @@ class Form extends React.Component {
         </select>
         <input type="submit" value="Submit" />
       </fieldset>
-    </form>;
+    </form>
+    )
   }
 }
 
