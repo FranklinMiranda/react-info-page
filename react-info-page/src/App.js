@@ -9,7 +9,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Banner name="Franklin" />
         <NavBar />
         <Info />
         <Table />
