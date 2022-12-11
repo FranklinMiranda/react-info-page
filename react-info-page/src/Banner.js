@@ -1,6 +1,6 @@
 import React from "react";
 
-// Props Example with ES6 Class Component, need to use this.props in ES6 Components
+// Props Example with ES6 Class Component, need to use this.props.name in ES6 Components
 class Banner extends React.Component {
     render(props) {
         return (
@@ -11,7 +11,7 @@ class Banner extends React.Component {
 
 
 
-// Props Example with Simple Functional Component 
+// Props Example with Simple Functional Component, only use props.name
 // const Banner = (props) => {
 //   return <h1>Hello, {props.name}</h1>;
 // };
