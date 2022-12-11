@@ -11,6 +11,10 @@ class Table extends React.Component {
             <th>Age</th>
           </tr>
           <tr>
+            <td>Facebook</td>
+            <td>18</td>
+          </tr>
+          <tr>
             <td>Dropbox</td>
             <td>14</td>
           </tr>
