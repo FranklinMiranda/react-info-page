@@ -4,6 +4,7 @@ import Info from './Info';
 import Table from './Table';
 import Form from './Form';
 import Banner from './Banner';
+import Clock from './Clock'
 
 class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
       <div>
         <NavBar />
         <Banner name="Franklin Miranda"/>
+        <Clock />
         <Info />
         <Table />
         <Form />
