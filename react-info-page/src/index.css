@@ -1,0 +1,19 @@
+.NavItems {
+  display: flex;
+  list-style: none;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavItems > li {
+  padding: 10px;
+}
+
+.Img {
+  width: 100px;
+}

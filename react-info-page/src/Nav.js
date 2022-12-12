@@ -1,15 +1,18 @@
-const NavBar = () => {
-    return (
-        <div>
-            <nav>
-                <ul className="NavBarList">
-                    <li className="NavItems">Home</li>
-                    <li className="NavItems">Information</li>
-                    <li className="NavItems">About</li>
-                </ul>
-            </nav>
-        </div>
-    )
-}
+import Image from './logo192.png';
 
-export default NavBar
+const NavBar = () => {
+  return (
+    <div>
+      <nav className='nav'>
+        <img className="Img" src={Image} alt="React"></img>
+        <ul className="NavItems">
+          <li>Home</li>
+          <li>Information</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
+  );
+};
+
+export default NavBar;
