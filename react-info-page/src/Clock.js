@@ -7,6 +7,7 @@ class Clock extends React.Component {
   }
 
   // componentDidMount only runs once, when the component is inserted into the DOM so the setInterval method begins to run at the designated interval
+  // An ID is assigned to the setInterval Function that can be passed to the clearInterval function when setInterval is to stop executing
   componentDidMount() {
     return this.timeID = setInterval(() => {return this.tick()}, 1000);
   }
