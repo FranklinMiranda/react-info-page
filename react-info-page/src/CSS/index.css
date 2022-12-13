@@ -1,6 +1,9 @@
 .Nav {
   background-color: #333;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
 }
 
 .Nav img {
