@@ -9,7 +9,7 @@ import Clock from './Clock'
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="Container">
         <NavBar />
         <Banner name="Franklin Miranda"/>
         <Clock />

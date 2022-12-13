@@ -3,7 +3,7 @@ import React from 'react';
 class Table extends React.Component {
   render() {
     return (
-      <div>
+      <div className='Table'>
         <table>
           <h3>Companies that use React</h3>
           <tr>

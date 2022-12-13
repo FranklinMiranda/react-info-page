@@ -2,8 +2,8 @@ import Image from '../Images/logo192.png';
 
 const NavBar = () => {
   return (
-    <div>
-      <nav className="Topnav">
+    <div className="Nav">
+      <nav>
         <a href="#Home">
           <img className="Img" src={Image} alt="React" />
         </a>
