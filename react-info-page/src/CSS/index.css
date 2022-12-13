@@ -40,11 +40,19 @@ body {
   color: white;
 }
 
+.Main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(../Images/logo192.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
 .Main ul li {
   padding-block: 10px;
 }
 
 .Main ul li::marker {
-color: #61DAFB;
-font-size: 2rem;
+  color: #61dafb;
+  font-size: 2rem;
 }
