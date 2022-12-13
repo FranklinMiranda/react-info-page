@@ -6,6 +6,7 @@ import Form from './Form';
 import Banner from './Banner';
 import Clock from './Clock';
 import Contact from './Contact';
+import Button from './Button'
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Banner name="Franklin Miranda"/>
         <Clock />
         <Main />
+        <Button />
         <Table />
         <Contact name='Franklin Miranda' email='fdm61344@gmail.com' number='(610)-299-8002'/>
         <Form />
