@@ -4,7 +4,8 @@ import Main from './Main';
 import Table from './Table';
 import Form from './Form';
 import Banner from './Banner';
-import Clock from './Clock'
+import Clock from './Clock';
+import Contact from './Contact';
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Clock />
         <Main />
         <Table />
+        <Contact name='Franklin Miranda' email='fdm61344@gmail.com' number='(610)-299-8002'/>
         <Form />
       </div>
     );
