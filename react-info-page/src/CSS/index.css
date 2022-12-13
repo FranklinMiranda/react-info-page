@@ -1,5 +1,6 @@
 body {
   background-color: #333;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .Nav {
@@ -35,8 +36,7 @@ body {
 }
 
 .Container {
-  background-color: #333;
-  font-family:'Courier New', Courier, monospace
+  padding: 20px;
 }
 
 .Container h1,
