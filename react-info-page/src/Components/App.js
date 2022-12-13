@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './Nav';
-import Info from './Info';
+import Main from './Main';
 import Table from './Table';
 import Form from './Form';
 import Banner from './Banner';
@@ -13,7 +13,7 @@ class App extends React.Component {
         <NavBar />
         <Banner name="Franklin Miranda"/>
         <Clock />
-        <Info />
+        <Main />
         <Table />
         <Form />
       </div>
