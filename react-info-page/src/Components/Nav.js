@@ -5,7 +5,7 @@ const NavBar = () => {
     <div>
       <nav className='nav'>
         <img className="Img" src={Image} alt="React"></img>
-        <ul className="NavItems">
+        <ul>
           <li>Home</li>
           <li>Information</li>
           <li>About</li>
