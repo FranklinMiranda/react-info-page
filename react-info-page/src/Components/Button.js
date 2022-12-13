@@ -20,7 +20,7 @@ class Button extends React.Component {
   render() {
     return (
       <div className="Button">
-        <h1>{this.state.binary}</h1>
+        <h1>Binary: {this.state.binary}</h1>
         <button onClick={this.handleClick}>Binary Toggle</button>
       </div>
     );
