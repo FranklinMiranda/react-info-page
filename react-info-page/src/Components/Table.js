@@ -5,7 +5,7 @@ class Table extends React.Component {
     return (
       <div className='Table'>
         <table>
-          <h3>Companies that use React</h3>
+          <h3>Companies that use React:</h3>
           <tr>
             <th>Name</th>
             <th>Founding Year</th>

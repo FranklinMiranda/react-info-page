@@ -37,13 +37,14 @@ body {
 
 .Container {
   padding: 20px;
+  color: white;
 }
 
-.Container h1,
-h2,
-table,
-form,
-ul {
-  color: white;
-  overflow: hidden;
+.Main ul li {
+  padding-block: 10px;
+}
+
+.Main ul li::marker {
+color: #61DAFB;
+font-size: 2rem;
 }
