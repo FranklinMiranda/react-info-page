@@ -8,6 +8,7 @@ import Clock from './Clock';
 import Contact from './Contact';
 import Button from './Button'
 
+// The App Component is usually the main component that contains all the other child components 
 class App extends React.Component {
   render() {
     return (

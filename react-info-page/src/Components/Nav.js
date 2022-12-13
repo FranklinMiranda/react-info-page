@@ -1,5 +1,6 @@
 import Image from '../Images/logo192.png';
 
+// A simple functional Component that renders out a Navigation Bar 
 const NavBar = () => {
   return (
     <div className="Nav">

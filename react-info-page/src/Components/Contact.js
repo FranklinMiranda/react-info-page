@@ -1,5 +1,6 @@
 import React from 'react';
 
+// A Contact Component that uses props and attributes to render out Contact Information
 class Contact extends React.Component {
   render(props) {
     return (

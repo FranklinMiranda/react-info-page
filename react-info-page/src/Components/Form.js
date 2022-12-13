@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// A Form Component that uses the form element to accept input information and then submit it 
 class Form extends React.Component {
   render() {
     return(

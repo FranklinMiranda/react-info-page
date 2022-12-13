@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-
+// A Main Component that includes information about React
 class Main extends React.Component {
     render() {
         return (

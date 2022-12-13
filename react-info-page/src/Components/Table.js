@@ -1,5 +1,6 @@
 import React from 'react';
 
+// A Table Component that renders out information about companies that use React
 class Table extends React.Component {
   render() {
     return (

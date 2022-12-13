@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Button Component example that used state object to store a value and uses a button to toggle that value between two numbers
 // This in the handleClick Method has to be bound to the this in the Class Scope using Bind
 class Button extends React.Component {
   constructor(props) {

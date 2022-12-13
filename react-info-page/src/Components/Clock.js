@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Clock component that uses state to store a time value and time of Day value and then uses lifecycle methods to start and stop a timer that updates the Clock
+// The Component also includes a if statement that updates the state object with Time of Day and then updates the DOM with the time of Day
 class Clock extends React.Component {
   constructor(props) {
     super(props);
