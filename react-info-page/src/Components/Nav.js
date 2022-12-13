@@ -1,4 +1,4 @@
-import Image from './logo192.png';
+import Image from '../Images/logo192.png';
 
 const NavBar = () => {
   return (
