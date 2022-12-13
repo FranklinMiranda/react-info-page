@@ -10,7 +10,6 @@ const NavBar = () => {
         <a href="#Information">Information</a>
         <a href="#Contact">Contact</a>
         <a href="#About">About</a>
-        <input type='text' placeholder="Search..." />
       </nav>
     </div>
   );
