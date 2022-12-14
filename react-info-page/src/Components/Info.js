@@ -2,6 +2,9 @@ import React from 'react';
 
 // This Info Component imports data from a JavaScript file and renders in HTML tags to the DOM
 // Target set to blank opens the hyperlink in a new tab instead of the current tab
+// Conditional Rendering is achieved by wrapping the tag to conditionally render in curly brackets and then including the conditional before the tag followed by &&
+
+
 class Info extends React.Component {
   render(props) {
     return (
