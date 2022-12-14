@@ -6,7 +6,7 @@ class Info extends React.Component {
   render(props) {
     return (
       <div className="Info">
-        <h4><a href={this.props.hyperlink} target="_blank">{this.props.name}</a></h4>
+        {this.props.hyperlink && <h4><a href={this.props.hyperlink} target="_blank">{this.props.name}</a></h4>}
       </div>
     );
   }
