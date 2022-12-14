@@ -29,3 +29,7 @@ const names = lowerName.map((name) => {
 })
 console.log(names)
 
+// Given a array of names return the array wrapped in a HTML <h1></h1> tag
+const companies = ['Apple', 'Facebook', 'Google', 'Amazon']
+const tagArray = companies.map(el => `<h1>${el}</h1>`)
+console.log(tagArray)
