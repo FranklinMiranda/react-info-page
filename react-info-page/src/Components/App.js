@@ -11,6 +11,7 @@ import Info from './Info';
 import links from '../Data/InfoData';
 
 // infoEl uses map method to map a array of link object's properties to attributes in the Info component and returns a array of filled in Info Components 
+// The Div inserted into the App component with the infoEl const outputs a Info component for every object in the links array 
 const infoEl = links.map(el => {
   return <Info name={el.name} hyperlink={el.hyperlink}/>
 })

@@ -4,9 +4,8 @@ import React from 'react';
 class Info extends React.Component {
   render(props) {
     return (
-      <div>
-        <h2>Name : {this.props.name}</h2>
-        <h2>Link : {this.props.hyperlink}</h2>
+      <div className="Info">
+        <h4><a href={this.props.hyperlink}>{this.props.name}</a></h4>
       </div>
     );
   }
