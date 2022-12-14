@@ -5,8 +5,8 @@ class Info extends React.Component {
   render(props) {
     return (
       <div>
-        <h1>Name : {this.props.name}</h1>
-        <h1>Link : {this.props.link}</h1>
+        <h2>Name : {this.props.name}</h2>
+        <h2>Link : {this.props.hyperlink}</h2>
       </div>
     );
   }

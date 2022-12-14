@@ -10,16 +10,23 @@ import Button from './Button'
 import Info from './Info';
 import links from '../Data/InfoData';
 
+// infoEl uses map method to map a array of link object's properties to attributes in the Info component and returns a array of filled in Info Components 
+const infoEl = links.map(el => {
+  return <Info name={el.name} hyperlink={el.hyperlink}/>
+})
 
 // The App Component is usually the main component that contains all the other child components 
 class App extends React.Component {
-  render() {
+   render() {
     return (
       <div className="Container">
         <NavBar />
         <Banner name="Franklin Miranda"/>
         <Clock />
         <Main />
+        <div>
+          {infoEl}
+        </div>
         <Button />
         <Table />
         <Contact name='Franklin Miranda' email='fdm61344@gmail.com' number='(610)-299-8002'/>
